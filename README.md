@@ -14,9 +14,9 @@ Other data from the code is fetched from Alpha Vantage API which provides that d
 
 **plots** folder has all the plots images.
 
+We handle this problem in two different ways - classification & regression
 
 # Classification
-We handle this problem in two different ways - classification & regression
 
 For the **classification** problem we predict 3 minutes into the future that weather the price of the currency will go up or not.
 
