@@ -7,17 +7,26 @@ This repository has 4 folders :
 3. training_data
 4. plots
 
-**training_data** folder has per minute data of BTC,ETH,BCH and LTC.
-**plots** folder has per minute data of BTC,ETH,BCH and LTC.
+**training_data** folder has per minute data of BTC,ETH,BCH and LTC. This is the data that i found from https://pythonprogramming.net/cryptocurrency-recurrent-neural-network-deep-learning-python-tensorflow-keras/ 
+Other data from the code is fetched from Alpha Vantage API which provides that data foor both stock and crypto currencies.
+
+
+**plots** folder has all the plots images.
 
 
 We handle this problem in two different ways - classification & regression
 
 For the **classification** problem we predict 3 minutes into the future that weather the price of the currency will go up or not.
+
 We do this by training the model with the big 4 of the crypto currrency market with their closing price and volume.
+
 We tried it with just closing price and also with single currency of which we are analyzing.
 
+For the **regression** problem we take a windiw of 40 days or 60 days to predict the price for the next day using LSTM model.
 
+We predict the prices for the validation set and plot them with the actual prices and analyze the trend of our predicted data and original data.
+
+Moreover in addition to this we added a funtionality to predict the future prices, so we can analyze the probable trend predicted by the model which is 2 months in future from current date.
 
 # Take a look at the Accuracy and Loss Plots:
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BTH_Loss_Acc.png)
