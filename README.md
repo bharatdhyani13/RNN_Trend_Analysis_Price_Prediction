@@ -24,7 +24,7 @@ We do this by training the model with the big 4 of the crypto currrency market w
 We tried it with just closing price and also with single currency of which we are analyzing.
 
 # Take a look at the Accuracy and Loss Plots:
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BTH_Loss_Acc.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BTC_Loss_Acc.png)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BCH_Loss_Acc.png)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_LTC_Loss_Acc.png)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_ETH_Loss_Acc.png)
