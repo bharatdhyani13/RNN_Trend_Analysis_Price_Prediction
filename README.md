@@ -14,6 +14,7 @@ Other data from the code is fetched from Alpha Vantage API which provides that d
 **plots** folder has all the plots images.
 
 
+# Classification
 We handle this problem in two different ways - classification & regression
 
 For the **classification** problem we predict 3 minutes into the future that weather the price of the currency will go up or not.
@@ -22,29 +23,45 @@ We do this by training the model with the big 4 of the crypto currrency market w
 
 We tried it with just closing price and also with single currency of which we are analyzing.
 
+# Take a look at the Accuracy and Loss Plots:
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BTH_Loss_Acc.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BCH_Loss_Acc.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_LTC_Loss_Acc.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_ETH_Loss_Acc.png)
+
+
+# Regression
 For the **regression** problem we take a windiw of 40 days or 60 days to predict the price for the next day using LSTM model.
 
 We predict the prices for the validation set and plot them with the actual prices and analyze the trend of our predicted data and original data.
 
 Moreover in addition to this we added a funtionality to predict the future prices, so we can analyze the probable trend predicted by the model which is 2 months in future from current date.
 
-# Take a look at the Accuracy and Loss Plots:
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BTH_Loss_Acc.png)
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BCH_Loss_Acc.png)
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_LTC_Loss_Acc.png)
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_ETH_Loss_Acc.png)
-(https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BTC_Loss_Acc.png)
+# Crypto
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_loss(0.0055).png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_volume_loss(0.005).png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/experiment_window_size.png)
+
+# Crypto Future
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_future_prediction.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_future_prediction.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_future_prediction.png)
 
 
-# How does GAN Works?
-Basic mathematical foundation for GAN is to find the PDF(probability distribution function) of the dataset **D** and get its parameters.
+# Stocks
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stock_close_vol_permin(volume%20feature%20doesn't%20do%20much%20difference%20in%20stocks).png)
+![]
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stock_close_permin.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stock_close_perday.png)
 
-Now genarate random samples from this which will be our **D'**. 
-Now if D and D' have the same distribution, their values should be similar.
 
-We try to **maximize Log Loss** at the Discriminative part of GAN, as in order to dicriminate between the two data,
-we assign prediction for D = 0 and D' = 1.
-This technique is used to distinguish between distributions. Greater the loss of this model, higher is the similarity.
+# Stocks Future 
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stock_close_vol_perday(volume%20feature%20doesn't%20do%20much%20difference%20in%20stocks).png)
+
+# RNN Trend Ananlysis Folder
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/btc_trend_analysis_old.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/btc_trend_analysis_old_future_pred.png)
+
 
 # Training
 We use DCGAN ([read it here](https://medium.com/@jonathan_hui/gan-dcgan-deep-convolutional-generative-adversarial-networks-df855c438f)). Training is done on 62,608 images.
