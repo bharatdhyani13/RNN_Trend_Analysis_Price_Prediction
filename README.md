@@ -38,9 +38,9 @@ We predict the prices for the validation set and plot them with the actual price
 Moreover in addition to this we added a funtionality to predict the future prices, so we can analyze the probable trend predicted by the model which is 2 months in future from current date.
 
 # Crypto(BTC)
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_loss(0.0055).png) **(Close Price as feature)**
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_volume_loss(0.005).png) **(Close Price, and Volume Traded as feature)**
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/experiment_window_size.png) **(Experimenting with hyper-parameters)**
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_loss(0.0055).png) 
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_volume_loss(0.005).png) 
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/experiment_window_size.png) **1.(Close Price as feature)** **2.(Close Price, and Volume Traded as feature)** **3.(Experimenting with hyper-parameters)**
 
 # Crypto Future(BTC)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_future_prediction.png)
@@ -53,8 +53,9 @@ Moreover in addition to this we added a funtionality to predict the future price
 
 
 # Stocks Future(MSFT)
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stock_close_vol_perday(volume%20feature%20doesn't%20do%20much%20difference%20in%20stocks).png)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stocks_close_permin.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stock_close_vol_perday(volume%20feature%20doesn't%20do%20much%20difference%20in%20stocks).png)
+
 
 # RNN Trend Ananlysis Folder
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/btc_trend_analysis_old.png)
