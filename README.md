@@ -8,7 +8,8 @@ This repository has 4 folders :
 4. plots
 
 **training_data** folder has per minute data of BTC,ETH,BCH and LTC. This is the data that i found from https://pythonprogramming.net/cryptocurrency-recurrent-neural-network-deep-learning-python-tensorflow-keras/ 
-Other data from the code is fetched from Alpha Vantage API which provides that data foor both stock and crypto currencies.
+
+Other data from the code is fetched from Alpha Vantage API which provides that data for both stock and crypto currencies.
 
 
 **plots** folder has all the plots images.
@@ -29,6 +30,7 @@ We tried it with just closing price and also with single currency of which we ar
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_LTC_Loss_Acc.png)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_ETH_Loss_Acc.png)
 
+Now this can be done with daily price also predicting the price of the currency in the following few days.
 
 # Regression
 For the **regression** problem we take a windiw of 40 days or 60 days to predict the price for the next day using LSTM model.
@@ -40,7 +42,11 @@ Moreover in addition to this we added a funtionality to predict the future price
 # Crypto(BTC)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_loss(0.0055).png) 
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_volume_loss(0.005).png) 
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/experiment_window_size.png) **1.(Close Price as feature)** **2.(Close Price, and Volume Traded as feature)** **3.(Experimenting with hyper-parameters)**
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/experiment_window_size.png) 
+
+**1.(Close Price as feature)** 
+**2.(Close Price, and Volume Traded as feature)** 
+**3.(Experimenting with hyper-parameters)**
 
 # Crypto Future(BTC)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_future_prediction.png)
@@ -56,16 +62,18 @@ Moreover in addition to this we added a funtionality to predict the future price
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stocks_close_permin.png)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/stock_close_vol_perday(volume%20feature%20doesn't%20do%20much%20difference%20in%20stocks).png)
 
+Stocks trend for future follows is quite more reliable when we work on daily data instead of per minutes data.
+The model understands the features more precisely for each data stocks data.
 
 # RNN Trend Ananlysis Folder
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/btc_trend_analysis_old.png)
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/btc_trend_analysis_old_future_pred.png)
 
+This is a directory from an old project that i worked on. I enhanced the code and added a few more functionalities.
 
 # Training
-We use DCGAN ([read it here](https://medium.com/@jonathan_hui/gan-dcgan-deep-convolutional-generative-adversarial-networks-df855c438f)). Training is done on 62,608 images.
-Images are loaded into memory batch wis
+We use Bidirectional LSTM which are an extension of traditional LSTMs that can improve model performance on sequence classification problems. In problems where all timesteps of the input sequence are available, Bidirectional LSTMs train two instead of one LSTMs on the input sequence. We fetch the data from Alpha Vantage API.
 
 # Sources
-https://medium.com/@jonathan_hui/gan-dcgan-deep-convolutional-generative-adversarial-networks-df855c438f
-https://medium.com/@nikitasharma_43692/my-mangagan-building-my-first-generative-adversarial-network-2ec1920257e3?sk=0eef45a3ef8d8b13f23f620abe48ef07
+
+https://pythonprogramming.net/cryptocurrency-recurrent-neural-network-deep-learning-python-tensorflow-keras/ 
