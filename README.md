@@ -20,10 +20,10 @@ We tried it with just closing price and also with single currency of which we ar
 
 
 # Take a look at the Accuracy and Loss Plots:
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/plots/class_BTH_Loss_Acc.PNG)
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/plots/class_BCH_Loss_Acc.PNG)
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/plots/class_LTC_Loss_Acc.PNG)
-![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/plots/class_ETH_Loss_Acc.PNG)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BTH_Loss_Acc.png)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_BCH_Loss_Acc.PNG)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_LTC_Loss_Acc.PNG)
+![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/class_ETH_Loss_Acc.PNG)
 
 
 # How does GAN Works?
