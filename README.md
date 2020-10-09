@@ -74,6 +74,9 @@ This is a directory from an old project that i worked on. I enhanced the code an
 # Training
 We use Bidirectional LSTM which are an extension of traditional LSTMs that can improve model performance on sequence classification problems. In problems where all timesteps of the input sequence are available, Bidirectional LSTMs train two instead of one LSTMs on the input sequence. We fetch the data from Alpha Vantage API.
 
+**What more we can do ?**
+We can add a functionality which will fetch the data every day and some how correct the model by retraining it with the correct future value and the loss that was encountered in the previous step. This is just for learning purposes, please do not spoil your trade portfolio depending on this. Stocks and CryptoCurrencies are volatile and it has many more factors on which their price depend on. :) 
+
 # Sources
 
 https://pythonprogramming.net/cryptocurrency-recurrent-neural-network-deep-learning-python-tensorflow-keras/ 
