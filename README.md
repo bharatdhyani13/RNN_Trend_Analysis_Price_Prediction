@@ -44,8 +44,10 @@ Moreover in addition to this we added a funtionality to predict the future price
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/trend_analysis_price_volume_loss(0.005).png) 
 ![](https://github.com/bharatdhyani13/RNN_Trend_Analysis_Price_Prediction/blob/main/plots/experiment_window_size.png) 
 
-**1.(Close Price as feature)** 
-**2.(Close Price, and Volume Traded as feature)** 
+**1.(Close Price as feature)**
+
+**2.(Close Price, and Volume Traded as feature)**
+
 **3.(Experimenting with hyper-parameters)**
 
 # Crypto Future(BTC)
